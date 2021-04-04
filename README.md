@@ -7,7 +7,7 @@ Currently, there are four parameters required for input:
 - Location of KO txt file
 - Exponent (To manipulate the test-statistic)
 
-Run the following help command to see description and sequence of inputs -
+Run the following help command to see description and sequence of inputs (Please input location of Python file on your local system) -
 ```
  python3 /Users/sanatmishra27/Desktop/GOLDLAB.py -h
 ```
