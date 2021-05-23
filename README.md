@@ -17,8 +17,8 @@ To run the entire programme with the appropriate arguments (Please input locatio
 python3 /Users/sanatmishra27/Documents/FINAL_GOLDLAB.py -g /Users/sanatmishra27/Downloads/GOLDLab/hum_gencode_v33\ \(1\).txt -meta /Users/sanatmishra27/Downloads/fantom6_metadata.txt -fantom /Users/sanatmishra27/Downloads/FANTOM -o /Users/sanatmishra27/Downloads/GOLDLab/
 ```
 ## Filters
-Only those genes which satisfy the folowing criteria are considered for evaluating the test-statistic:
-- Genes on the same chromosome as the lncrna
+Only those genes which satisfy the following criteria are considered for evaluating the test-statistic:
+- Genes on the same chromosome as the knocked-down lncrna 
 
 ## Filenames
 The filename of each experiment should be the experiment id. For example, ASO_C0008586_03.txt<br/>
