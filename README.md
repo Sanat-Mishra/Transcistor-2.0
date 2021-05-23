@@ -12,10 +12,21 @@ Run the following help command to see description and sequence of inputs (Please
  python3 /Users/sanatmishra27/Desktop/GOLDLAB.py -h
 ```
 
+To run the entire programme with the appropriate arguments (Please input locations of files on your local system)- 
+```
+python /Users/sanatmishra27/Documents/FINAL_GOLDLAB.py -g /Users/sanatmishra27/Downloads/GOLDLab/hum_gencode_v33\ \(1\).txt -meta /Users/sanatmishra27/Downloads/fantom6_metadata.txt -fantom /Users/sanatmishra27/Downloads/FANTOM -o /Users/sanatmishra27/Downloads/GOLDLab/
+```
 ## Filters
 Only those genes which satisfy the folowing criteria are considered for evaluating the test-statistic:
 - Genes on same chr. as the lncrna
 
+## Filenames
+The filename of each experiment should be the experiment id. For example, ASO_C0008586_03.txt
+These folder containing these files needs to be specified as input while running the programme.
+
+## Meta Data Format
+The format of the metadata file must be as follows -
+![Screenshot 2021-05-23 at 5 10 39 PM](https://user-images.githubusercontent.com/19981230/119259003-ce6dab80-bbe9-11eb-917a-40585f6158bd.jpg)
 
 ## Test-statistic
 <img src=
@@ -29,3 +40,6 @@ where
 - d = Distance of gene from UMLILO 
 - a = Exponent (Set as 1)
 
+## Output Format
+The format of the output csv file will be as follows -
+![Screenshot 2021-05-23 at 5 15 33 PM](https://user-images.githubusercontent.com/19981230/119259150-7daa8280-bbea-11eb-808c-96d7fab1ac6c.jpg)
