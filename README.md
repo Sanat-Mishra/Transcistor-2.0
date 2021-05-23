@@ -21,8 +21,8 @@ Only those genes which satisfy the folowing criteria are considered for evaluati
 - Genes on same chr. as the lncrna
 
 ## Filenames
-The filename of each experiment should be the experiment id. For example, ASO_C0008586_03.txt
-These folder containing these files needs to be specified as input while running the programme.
+The filename of each experiment should be the experiment id. For example, ASO_C0008586_03.txt \\
+The folder containing these files needs to be specified as input while running the programme.
 
 ## Meta Data Format
 The format of the metadata file must be as follows -
@@ -42,4 +42,4 @@ where
 
 ## Output Format
 The format of the output csv file will be as follows -
-![Screenshot 2021-05-23 at 5 15 33 PM](https://user-images.githubusercontent.com/19981230/119259150-7daa8280-bbea-11eb-808c-96d7fab1ac6c.jpg)
+![Screenshot 2021-05-23 at 5 18 57 PM](https://user-images.githubusercontent.com/19981230/119259246-f90c3400-bbea-11eb-93ab-2ef721314452.jpg)
