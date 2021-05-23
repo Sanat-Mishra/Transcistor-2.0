@@ -8,10 +8,10 @@ import csv
   
 parser=argparse.ArgumentParser(description = "Calculating test statistic to classify cis interaction of UMLILO with nominal p-value as test of significance")
 
-parser.add_argument("-g",nargs = 1,metavar = "GENCODE",type = str,help = "The location of GENCODE File containing positions of genes - which is used to calculate the distance of the TSS of each gene from the respective lncrna")
-parser.add_argument("-meta",nargs = 1,metavar = "FANTOM meta-data",type = str, help = "The location of the metadata file  data file")
-parser.add_argument("-fantom",nargs = 1,metavar="FANTOM lncrna folder",type = str, help = "The location of the FANTOM data files corresponding to each lncrna")
-parser.add_argument("-o",nargs = 1,metavar = "Location of output csv file",type = str, help = "The location of the output file ")
+parser.add_argument("-g",nargs = 1,metavar = "GENCODE",type = str, help = "The location of GENCODE File containing positions of genes - which is used to calculate the distance of the TSS of each gene from the respective lncrna")
+parser.add_argument("-meta",nargs = 1,type = str, help = "The location of the metadata file")
+parser.add_argument("-fantom",nargs = 1,metavar="FANTOM",type = str, help = "The location of the FANTOM data files corresponding to each lncrna")
+parser.add_argument("-o",nargs = 1,metavar = "csv file",type = str, help = "The location of the output file ")
 
 
 
