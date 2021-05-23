@@ -25,8 +25,8 @@ The filename of each experiment should be the experiment id. For example, ASO_C0
 The folder containing these files needs to be specified as input while running the programme.
 
 ## Meta Data Format
-The format of the metadata file must be as follows -
-![Screenshot 2021-05-23 at 5 10 39 PM](https://user-images.githubusercontent.com/19981230/119259003-ce6dab80-bbe9-11eb-917a-40585f6158bd.jpg)
+The format of the metadata file must have the following columns -
+File_Name ENSEMBL CHR strand	SYMBOL TSS SPECIES ENTREZID FILE_TYPE PERTURBATION DATASET
 
 ## Test-statistic
 <img src=
