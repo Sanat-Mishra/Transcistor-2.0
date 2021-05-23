@@ -14,8 +14,7 @@ Run the following help command to see description and sequence of inputs (Please
 
 ## Filters
 Only those genes which satisfy the folowing criteria are considered for evaluating the test-statistic:
-- Genes on chr. 4
-- Genes with absolute value of expression greater than 1
+- Genes on same chr. as the lncrna
 
 
 ## Test-statistic
@@ -28,5 +27,5 @@ Test Stat &= \frac{1}{n} \sum_{i=1}^{n} \frac{1}{d_i^a} \\
 where 
 - n = Number of genes that pass the filters 
 - d = Distance of gene from UMLILO 
-- a = Exponent (Try values <0.005)
+- a = Exponent (Set as 1)
 
