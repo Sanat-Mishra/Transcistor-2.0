@@ -21,11 +21,11 @@ Only those genes which satisfy the folowing criteria are considered for evaluati
 - Genes on same chr. as the lncrna
 
 ## Filenames
-The filename of each experiment should be the experiment id. For example, ASO_C0008586_03.txt \\
+The filename of each experiment should be the experiment id. For example, ASO_C0008586_03.txt<br/>
 The folder containing these files needs to be specified as input while running the programme.
 
 ## Meta Data Format
-The format of the metadata file must have the following columns -
+The format of the metadata file must have the following columns -<br/>
 File_Name ENSEMBL CHR strand	SYMBOL TSS SPECIES ENTREZID FILE_TYPE PERTURBATION DATASET
 
 ## Test-statistic
