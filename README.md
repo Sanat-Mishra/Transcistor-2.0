@@ -3,9 +3,9 @@
 Download and run the Python file on Command-Line.
 Currently, there are four parameters required for input:
 - Location of GENCODE File
-- Location of Control txt file
-- Location of KO txt file
-- Exponent (To manipulate the test-statistic)
+- Location of FANTOM Metadata file
+- Location of FANTOM/Other folder containing experimental data files corresponding to each lncrna
+- Location of output csv file
 
 Run the following help command to see description and sequence of inputs (Please input location of Python file on your local system) -
 ```
