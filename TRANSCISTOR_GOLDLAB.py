@@ -13,8 +13,6 @@ parser.add_argument("-meta",nargs = 1,type = str, help = "The location of the me
 parser.add_argument("-fantom",nargs = 1,metavar="FANTOM",type = str, help = "The location of the FANTOM data files corresponding to each lncrna")
 parser.add_argument("-o",nargs = 1,metavar = "csv file",type = str, help = "The location of the output file ")
 
-
-
 args = parser.parse_args()
 
 distance_dict_up={}
