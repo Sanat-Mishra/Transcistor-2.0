@@ -11,9 +11,11 @@ Run the following help command to see description and sequence of inputs (Please
 ```
  python3 /Users/sanatmishra27/Desktop/GOLDLAB.py -h
 ```
-The output from the above command is -
+The output from the above command is - <br/>
+
 ![Screenshot 2021-05-24 at 9 47 27 AM](https://user-images.githubusercontent.com/19981230/119295690-0ec63b80-bc75-11eb-8003-abfa9ee331e7.jpg)
 <br/>
+
 To run the entire programme with the appropriate arguments (Please input locations of files on your local system)- 
 ```
 python3 /Users/sanatmishra27/Documents/FINAL_GOLDLAB.py -g /Users/sanatmishra27/Downloads/GOLDLab/hum_gencode_v33\ \(1\).txt -meta /Users/sanatmishra27/Downloads/fantom6_metadata.txt -fantom /Users/sanatmishra27/Downloads/FANTOM -o /Users/sanatmishra27/Downloads/GOLDLab/
@@ -28,7 +30,7 @@ The folder containing these files needs to be specified as input while running t
 
 ## Meta Data Format
 The metadata file must have the following columns -<br/>
-File_Name ENSEMBL CHR strand	SYMBOL TSS SPECIES ENTREZID FILE_TYPE PERTURBATION DATASET
+File_Name  ENSEMBL  CHR  strand	 SYMBOL  TSS  SPECIES  ENTREZID  FILE_TYPE  PERTURBATION  DATASET
 
 ## Test-statistic
 <img src=
