@@ -20,9 +20,6 @@ Currently, there are four parameters required for input:
 ```
 python3 /Users/sanatmishra27/Documents/FINAL_GOLDLAB.py -g /Users/sanatmishra27/Downloads/GOLDLab/hum_gencode_v33\ \(1\).txt -meta /Users/sanatmishra27/Downloads/fantom6_metadata.txt -fantom /Users/sanatmishra27/Downloads/FANTOM -o /Users/sanatmishra27/Downloads/GOLDLab/
 ```
-## Filters
-Only those genes which satisfy the following criteria are considered for evaluating the test-statistic:
-- Genes on the same chromosome as the knocked-down lncrna 
 
 ## Filenames
 The filename of each experiment should be the experiment id. For example, ```ASO_C0008586_03.txt```<br/>
@@ -33,6 +30,12 @@ The metadata file must have the following columns -<br/>
 ```
 File_Name  ENSEMBL  CHR  strand	 SYMBOL  TSS  SPECIES  ENTREZID  FILE_TYPE  PERTURBATION  DATASET
 ```
+
+## Filters
+Only those genes which satisfy the following criteria are considered for evaluating the test-statistic:
+- Genes on the same chromosome as the knocked-down lncrna 
+
+
 ## Test-statistic
 <img src=
 "https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0ATest+Stat+%26%3D+%5Cfrac%7B1%7D%7Bn%7D+%5Csum_%7Bi%3D1%7D%5E%7Bn%7D+%5Cfrac%7B1%7D%7Bd_i%5Ea%7D+%5C%5C%0A%5Cend%7Balign%2A%7D%0A" 
